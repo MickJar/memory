@@ -1,0 +1,8 @@
+<div class="grid-container mx-auto vhx-75">
+    <app-card 
+        class="p-3 w-75 h-100"
+        [card]=card 
+        (flippedEvent)="cardFlipped($event)"
+        *ngFor="let card of playingBoard">
+    </app-card>
+</div>

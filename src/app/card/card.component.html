@@ -1,0 +1,7 @@
+<div class="card rounded" [class.flipped]="card.flipped">
+    <div class="front" [ngStyle]="{
+        'background-color': card.color,
+        'color': card.color
+    }"></div>
+    <img class="back" src="assets/cardBack.png">
+</div>
